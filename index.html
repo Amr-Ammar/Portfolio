@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amr Ammar — Data Analyst & Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- Particle Canvas -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- Custom Cursor -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- Navigation -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">AA<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-content">
+    <p class="hero-eyebrow"><span class="mono">&lt;</span> Hello, World <span class="mono">/&gt;</span></p>
+    <h1 class="hero-name">Amr<br><span class="outline-text">Ammar</span></h1>
+    <div class="hero-subtitle">
+      <span class="typed-text"></span><span class="cursor-blink">|</span>
+    </div>
+    <p class="hero-desc">Data Analyst | BIS Student at MUST | Data-Driven Problem Solver.<br>
+    Dedicated to transforming complex data into actionable business insights.<br>
+    Background bridges technical development and strategic data analysis.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn-primary">Get In Touch <i class="fas fa-arrow-right"></i></a>
+      <a href="#projects" class="btn-ghost">View Work</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="photo-frame">
+      <div class="photo-glow"></div>
+      <img src="profile.jpg" alt="Amr Ammar" class="profile-photo" />
+      <div class="photo-border-animated"></div>
+    </div>
+    <div class="floating-badge badge-1"><i class="fab fa-python"></i> Python</div>
+    <div class="floating-badge badge-2"><i class="fas fa-database"></i> SQL</div>
+    <div class="floating-badge badge-3"><i class="fas fa-chart-bar"></i> Power BI</div>
+    <div class="floating-badge badge-4"><i class="fab fa-laravel"></i> Laravel</div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">01 / About</span>
+      <h2>Who I <span class="accent">Am</span></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p class="about-lead">Passionate about leveraging design thinking and data-driven methods to solve real-world problems.</p>
+        <p>Thrives in collaborative, learning-focused environments at the intersection of data and technology. Currently pursuing a Bachelor's in Business Information Systems at MUST University, blending business acumen with technical expertise.</p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-num" data-target="2">0</span><span class="stat-suffix">+</span>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="8">0</span><span class="stat-suffix">+</span>
+            <p>Certifications</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="3">0</span><span class="stat-suffix">rd</span>
+            <p>Year @ MUST</p>
+          </div>
+        </div>
+      </div>
+      <div class="tech-stack reveal">
+        <p class="stack-title">Core Technologies</p>
+        <div class="tech-icons">
+          <div class="tech-icon-item" title="Python"><i class="fab fa-python"></i><span>Python</span></div>
+          <div class="tech-icon-item" title="SQL"><i class="fas fa-database"></i><span>SQL</span></div>
+          <div class="tech-icon-item" title="Power BI"><i class="fas fa-chart-bar"></i><span>Power BI</span></div>
+          <div class="tech-icon-item" title="Laravel"><i class="fab fa-laravel"></i><span>Laravel</span></div>
+          <div class="tech-icon-item" title="Flutter"><i class="fas fa-mobile-alt"></i><span>Flutter</span></div>
+          <div class="tech-icon-item" title="HTML/CSS"><i class="fab fa-html5"></i><span>HTML/CSS</span></div>
+          <div class="tech-icon-item" title="JavaScript"><i class="fab fa-js"></i><span>JS</span></div>
+          <div class="tech-icon-item" title="Git"><i class="fab fa-git-alt"></i><span>Git</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">02 / Skills</span>
+      <h2>What I <span class="accent">Do</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <h3><i class="fas fa-code"></i> Technical</h3>
+        <div class="skill-bars">
+          <div class="skill-bar-item" data-level="90"><span>MySQL / Oracle DB</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">90%</span></div>
+          <div class="skill-bar-item" data-level="88"><span>Microsoft Power BI</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">88%</span></div>
+          <div class="skill-bar-item" data-level="85"><span>Python</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">85%</span></div>
+          <div class="skill-bar-item" data-level="80"><span>Data Modeling</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">80%</span></div>
+          <div class="skill-bar-item" data-level="75"><span>Laravel / Full-Stack Web</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">75%</span></div>
+          <div class="skill-bar-item" data-level="70"><span>Flutter</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">70%</span></div>
+          <div class="skill-bar-item" data-level="72"><span>API Integration</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">72%</span></div>
+          <div class="skill-bar-item" data-level="68"><span>Encryption / Security</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">68%</span></div>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <h3><i class="fas fa-brain"></i> Data & AI</h3>
+        <div class="skill-bars">
+          <div class="skill-bar-item" data-level="85"><span>Statistics</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">85%</span></div>
+          <div class="skill-bar-item" data-level="82"><span>Data Science Fundamentals</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">82%</span></div>
+          <div class="skill-bar-item" data-level="78"><span>Decision Support Systems</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">78%</span></div>
+          <div class="skill-bar-item" data-level="75"><span>Expert Systems / CLIPS</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">75%</span></div>
+          <div class="skill-bar-item" data-level="80"><span>Microsoft Excel</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">80%</span></div>
+          <div class="skill-bar-item" data-level="78"><span>Rule-Based Systems</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">78%</span></div>
+          <div class="skill-bar-item" data-level="82"><span>Algorithms & DS</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">82%</span></div>
+          <div class="skill-bar-item" data-level="88"><span>Analytical Thinking</span><div class="bar-track"><div class="bar-fill"></div></div><span class="skill-pct">88%</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Tag Cloud -->
+    <div class="skills-tags reveal">
+      <span class="tag">C Programming</span>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">Problem Solving</span>
+      <span class="tag">Computer Science</span>
+      <span class="tag">Data Visualization</span>
+      <span class="tag">Business Intelligence</span>
+      <span class="tag">Backend Development</span>
+      <span class="tag">OOP</span>
+      <span class="tag">Database Design</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">03 / Projects</span>
+      <h2>My <span class="accent">Work</span></h2>
+    </div>
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card reveal" data-project="weather50">
+        <div class="project-card-inner">
+          <div class="project-icon-area">
+            <div class="project-bg-icon"><i class="fas fa-cloud-sun"></i></div>
+          </div>
+          <div class="project-tags-row">
+            <span class="ptag">Python</span>
+            <span class="ptag">Django</span>
+            <span class="ptag">Leaflet.js</span>
+            <span class="ptag">API</span>
+          </div>
+          <h3>Weather50</h3>
+          <p>Real-time global weather, air quality, and city information with interactive maps and saved favorites.</p>
+          <div class="project-footer">
+            <span class="project-type">Full-Stack Web App</span>
+            <button class="btn-view-project" onclick="openModal('weather50')">View Details <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card reveal" data-project="sepsis">
+        <div class="project-card-inner">
+          <div class="project-icon-area">
+            <div class="project-bg-icon"><i class="fas fa-heartbeat"></i></div>
+          </div>
+          <div class="project-tags-row">
+            <span class="ptag">CLIPS</span>
+            <span class="ptag">Expert System</span>
+            <span class="ptag">DSS</span>
+            <span class="ptag">Healthcare</span>
+          </div>
+          <h3>Sepsis Risk Expert System</h3>
+          <p>Diagnostic tool analyzing patient data to classify sepsis risk levels, providing actionable decision support for healthcare professionals.</p>
+          <div class="project-footer">
+            <span class="project-type">Expert System / DSS</span>
+            <button class="btn-view-project" onclick="openModal('sepsis')">View Details <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Project Modals -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+  <div class="modal-box" id="modal-box" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<!-- ===== EDUCATION ===== -->
+<section id="education">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">04 / Education & Certs</span>
+      <h2>My <span class="accent">Journey</span></h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-timeline reveal">
+        <div class="timeline-item active">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2022 — 2027</span>
+            <h3>Bachelor of Business Information Systems</h3>
+            <p class="timeline-school"><i class="fas fa-university"></i> Misr University for Science & Technology (MUST)</p>
+            <p>3rd Year Student · Expected Graduation 2027</p>
+            <div class="timeline-badges">
+              <span>Data Analysis</span>
+              <span>Backend Dev</span>
+              <span>AI & Expert Systems</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="certs-grid reveal">
+        <p class="certs-title">Professional Certifications</p>
+        <div class="cert-items">
+          <div class="cert-item">
+            <div class="cert-icon harvard"><i class="fas fa-graduation-cap"></i></div>
+            <div>
+              <p class="cert-name">CS50's Introduction to Computer Science</p>
+              <p class="cert-issuer">Harvard University</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon ibm"><i class="fas fa-brain"></i></div>
+            <div>
+              <p class="cert-name">Enterprise Design Thinking Practitioner</p>
+              <p class="cert-issuer">IBM</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon ibm"><i class="fas fa-chart-line"></i></div>
+            <div>
+              <p class="cert-name">Data Science 101</p>
+              <p class="cert-issuer">IBM</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon hp"><i class="fas fa-database"></i></div>
+            <div>
+              <p class="cert-name">Data Science & Analytics</p>
+              <p class="cert-issuer">HP LIFE</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon cisco"><i class="fas fa-network-wired"></i></div>
+            <div>
+              <p class="cert-name">Introduction to Data Science</p>
+              <p class="cert-issuer">Cisco Networking Academy</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon cisco"><i class="fas fa-chart-pie"></i></div>
+            <div>
+              <p class="cert-name">Discovering Data Analysis & Visualization</p>
+              <p class="cert-issuer">Cisco Networking Academy</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon google"><i class="fab fa-google"></i></div>
+            <div>
+              <p class="cert-name">Google Sheets</p>
+              <p class="cert-issuer">Google Cloud</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-icon google"><i class="fas fa-robot"></i></div>
+            <div>
+              <p class="cert-name">Introduction to Generative AI</p>
+              <p class="cert-issuer">Google Cloud</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">05 / Contact</span>
+      <h2>Let's <span class="accent">Connect</span></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p class="contact-lead">Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+        <a href="mailto:amr.ammar.data@gmail.com" class="contact-email">
+          <i class="fas fa-envelope"></i>
+          amr.ammar.data@gmail.com
+        </a>
+        <div class="social-links">
+          <a href="http://www.linkedin.com/in/amr-ammar-data" target="_blank" class="social-btn" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/Amr-Ammar" target="_blank" class="social-btn" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/amrammarrr?igsh=aGt2dzB2NnFvbnhj" target="_blank" class="social-btn" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/share/18TSA9mgHi/" target="_blank" class="social-btn" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <form id="contact-form" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <p class="form-success" id="form-success">✓ Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-inner">
+    <span class="footer-logo">AA<span class="dot">.</span></span>
+    <p>© 2025 Amr Ammar. Crafted with <span class="accent">passion</span>.</p>
+    <a href="#hero" class="back-top"><i class="fas fa-arrow-up"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
